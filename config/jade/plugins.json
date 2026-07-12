@@ -105,8 +105,16 @@
   "supplementaries": {
     "hat_stand": true
   },
+  "create_item_drawers": {
+    "display.upgrade": true,
+    "main": true,
+    "display.empty": true
+  },
   "item_descriptions": {
     "block_descriptions": false,
     "entity_descriptions": true
+  },
+  "mega_showdown": {
+    "jade": true
   }
 }

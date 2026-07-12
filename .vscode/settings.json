@@ -120,7 +120,7 @@
         "mods/*.jar": true,
         "mods/special-*": false,
         "mods/*.disabled": true,
-        "resourcepacks/*.zip": true,
+        "resourcepacks/*.zip": false,
         "resourcepacks/special-*": false,
         "blueprint-online-image-cache/": true,
         "villagerpacks/": true,

@@ -44,8 +44,8 @@ mods/*.jar
 mods/*.disabled
 
 # resourcepacks
-resourcepacks/*.zip
-!resourcepacks/special-*
+# resourcepacks/*.zip
+# !resourcepacks/special-*
 
 # shaderpacks
 shaderpacks/*.zip
@@ -122,6 +122,7 @@ ponders_watched_azimuth.json
 # dev environment stuff
 /.probe/
 /.vscode/probejs.code-snippets
+/.vscode/key.code-snippets
 /kubejs/config/web_server.json
 /.github/agents/
 /py_scripts/__pycache__/
@@ -143,4 +144,3 @@ minecraftinstance.json
 # !kubejs/assets/special-*.zip
 # kubejs/data/*.zip
 # !kubejs/data/special-*.zip
-.vscode/key.code-snippets

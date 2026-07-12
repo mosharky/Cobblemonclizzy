@@ -1,5 +1,6 @@
 {
   "balm:jade": null,
+  "create_item_drawers:main": null,
   "embers:machine_details": null,
   "exposure:lightroom": null,
   "exposure:photograph_frame": null,
@@ -46,6 +47,7 @@
   "jadeaddons.create:table_cloth": null,
   "jadeaddons.lootr:info": null,
   "jadeaddons.lootr:inventory": null,
+  "mega_showdown:jade": null,
   "minecraft:animal_owner": null,
   "minecraft:armor_stand": null,
   "minecraft:beehive": null,
