@@ -512,7 +512,7 @@
 	Emotes = true
 	"Enhanced Ladders" = true
 	"Glass Shard" = false
-	"Gold Tools Have Fortune" = true
+	"Gold Tools Have Fortune" = false
 	"Grab Chickens" = true
 	"Hoe Harvesting" = false
 	"Horses Swim" = true

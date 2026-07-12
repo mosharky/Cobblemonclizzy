@@ -164,7 +164,7 @@
 		# Please note that the cost model will still factor these free slots into the calculation
 		# for unlocking the next locked slot. The slots also cannot be revoked once unlocked.
 		# Valid range: 0 to 253 (inclusive)
-		initialUnlockedSlots = 9
+		initialUnlockedSlots = 27
 		# If set to true, backpack slots may be unlocked using Unlock Tokens
 		# Valid values: true, false
 		allowUnlockingUsingUnlockToken = true
@@ -209,7 +209,7 @@
 			# 
 			# Note: This property has no effect if useCustomCosts is set to true
 			# Valid range: 1 to 100 (inclusive)
-			maxCost = 20
+			maxCost = 5
 			# If enabled, instead of using a cost that is calculated based on a minCost
 			# and maxCost, custom costs allow the cost to be specified manually using
 			# a list of values (see customCosts).
@@ -285,7 +285,7 @@
 		# longer fit will spawn into the world. Take care when changing this property on a
 		# running game/server since the changes will be automatically reloaded upon saving this file.
 		# Valid range: 1 to 11 (inclusive)
-		rows = 5
+		rows = 6
 
 # Augment Bay related properties
 [augmentBays]

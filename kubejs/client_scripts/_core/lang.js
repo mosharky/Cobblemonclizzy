@@ -11,6 +11,7 @@ ClientEvents.lang('en_us', e => {
     // TODO: this aint working
     // rename('farmersdelight:rope', 'Netting')
     // rename('farmersdelight:wheat_dough', 'Dough')
+    e.add('farmersdelight', 'farmersdelight.jei.cooking', 'Cooking')
 
     // Nature's Spirit
     /*

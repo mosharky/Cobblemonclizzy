@@ -23,7 +23,7 @@ testPerformance = false
 [filtering]
 	#Specifies whether to enable filtering for logs.
 	#Unless "global" is set to true, filtering happens on the dedicated async thread, with no overhead for the caller.
-	enabled = false
+	enabled = true
 	#When set to true, filtering would happen globally instead of at the logger stage.
 	#This can avoid creating the LogEvent, at the cost of performing filtering on the caller thread, and not being able to process placeholders properly.
 	global = false
@@ -36,6 +36,6 @@ testPerformance = false
 	#Messages logged by loggers with the specified names will be filtered out and not logged.
 	loggers = []
 	#Messages containing the specified substrings will be filtered out and not logged.
-	strings = []
+	strings = ["Error loading class", "Invalid path cobblemon", ""]
 	#Messages that match the specified regexes will be filtered out and not logged.
-	regexes = []
+	regexes = ["File .* does not exist, cannot add it to event"]
