@@ -36,6 +36,6 @@ testPerformance = false
 	#Messages logged by loggers with the specified names will be filtered out and not logged.
 	loggers = []
 	#Messages containing the specified substrings will be filtered out and not logged.
-	strings = ["Error loading class", "Invalid path cobblemon", ""]
+	strings = ["Error loading class", "Invalid path cobblemon", "Discarding @Unique public method", "Detected setBlock"]
 	#Messages that match the specified regexes will be filtered out and not logged.
 	regexes = ["File .* does not exist, cannot add it to event"]

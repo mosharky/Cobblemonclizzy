@@ -5,12 +5,12 @@ ClientEvents.lang('en_us', e => {
     }
 
     // Quark
-    // rename('quark:rope', 'Rigid Rope')
+    rename('quark:rope', 'Rigid Rope')
 
     // Farmer's Delight
     // TODO: this aint working
-    // rename('farmersdelight:rope', 'Netting')
-    // rename('farmersdelight:wheat_dough', 'Dough')
+    rename('farmersdelight:rope', 'Netting')
+    rename('farmersdelight:wheat_dough', 'Dough')
     e.add('farmersdelight', 'farmersdelight.jei.cooking', 'Cooking')
 
     // Nature's Spirit
@@ -31,14 +31,6 @@ ClientEvents.lang('en_us', e => {
     // Collector's Reap
     // e.add('collectorsreap', 'item.collectorsreap.dragon_fruit_seeds', 'Pink Dragon Fruit Seeds')
 
-    // Darker Depths
-    // rename('darkerdepths:ash_block', 'Darkslate Ash Block')
-    // rename('darkerdepths:ash', 'Darkslate Ash')
-
-    // Doom and Gloom missing lang
-    // e.add('doom_and_gloom', 'entity.doom_and_gloom.holler', 'Holler')
-    // e.add('doom_and_gloom', 'entity.minecraft.villager.gravetender', 'Gravetender')
-
     // AE2 missing lang
     // e.add('ae2', 'entity.minecraft.villager.fluix_researcher', 'Fluix Researcher')
 
@@ -56,5 +48,24 @@ ClientEvents.lang('en_us', e => {
     // rename('bountifulfares:plum_sapling', 'Fruitful Plum Sapling')
 
     // No Man's Land
+    rename('nomansland:pine_bookshelf', 'Pine Bookshelf')
+    rename('nomansland:pine_button', 'Pine Button')
+    rename('nomansland:pine_cabinet', 'Pine Cabinet')
+    rename('nomansland:pine_door', 'Pine Door')
+    rename('nomansland:pine_fence', 'Pine Fence')
+    rename('nomansland:pine_fence_gate', 'Pine Fence Gate')
+    rename('nomansland:pine_hanging_sign', 'Pine Hanging Sign')
+    rename('nomansland:pine_leaves', 'Pine Leaves')
+    rename('nomansland:pine_log', 'Pine Log')
+    rename('nomansland:pine_palisade', 'Pine Palisade')
+    rename('nomansland:pine_planks', 'Pine Planks')
+    rename('nomansland:pine_pressure_plate', 'Pine Pressure Plate')
+    rename('nomansland:pine_sapling', 'Pine Sapling')
+    rename('nomansland:pine_seat', 'Pine Seat')
+    rename('nomansland:pine_sign', 'Pine Sign')
+    rename('nomansland:pine_slab', 'Pine Slab')
+    rename('nomansland:pine_stairs', 'Pine Stairs')
+    rename('nomansland:pine_trapdoor', 'Pine Trapdoor')
+    rename('nomansland:pine_wood', 'Pine Wood')
     // rename('nomansland:oat_grass', 'Lush Oat Grass')
 })

@@ -7,7 +7,7 @@
 	#Allowed values: (0,)
 	"Piston Push Limit" = 12
 	#Set to false to disable the behavior where Zeta will automatically hide any disabled items from creative and JEI
-	"Hide Disabled Content" = true
+	"Hide Disabled Content" = false
 	#Set to false to disable Zeta's item info when viewing recipe/uses for an item in JEI
 	"Enable Jei Item Info" = true
 	#For JEI info purposes, add any items here to specifically disable their JEI info from Zeta. Note that Zeta already only shows info that's relevant to which features are enabled

@@ -5,5 +5,5 @@ function removals_Create() {
     ])
 
     global.ITEM_SWAPPER.set('create:dough', 'farmersdelight:wheat_dough')
-    global.ITEM_SWAPPER.set('create:wheat_flour', 'bountifulfares:flour')
+    // global.ITEM_SWAPPER.set('create:wheat_flour', 'bountifulfares:flour')
 }

@@ -9,8 +9,8 @@ function worldgen_NoMansLand(e) {
     removeBiomeModifier(e, 'nomansland:add_feature_addition/has_dried_grass_tag_features')
     removeBiomeModifier(e, 'nomansland:add_feature_addition/has_frosted_grass_forest_tag_features')
     removeBiomeModifier(e, 'nomansland:add_feature_addition/has_frosted_grass_plains_tag_features')
-    removeBiomeModifier(e, 'nomansland:add_feature_addition/has_icicles_tag_features')
-    removeBiomeModifier(e, 'nomansland:add_feature_addition/has_oat_grass_tag_features')
+    // removeBiomeModifier(e, 'nomansland:add_feature_addition/has_icicles_tag_features')
+    // removeBiomeModifier(e, 'nomansland:add_feature_addition/has_oat_grass_tag_features')
     // spawns
     removeBiomeModifier(e, 'nomansland:spawns/deer/spawn_deer_forest')
     removeBiomeModifier(e, 'nomansland:spawns/deer/spawn_deer_taiga')
@@ -23,20 +23,21 @@ function worldgen_NoMansLand(e) {
     removeBiomeModifier(e, 'nomansland:add_patch_dried_grass_mycelium')
     removeBiomeModifier(e, 'nomansland:add_crag_rock')
     // vanilla biome changes
-    removeBiomeModifier(e, 'nomansland:birch_forest/change_color')
-    removeBiomeModifier(e, 'nomansland:birch_forest/remove_features')
-    removeBiomeModifier(e, 'nomansland:old_growth_birch_forest/change_color')
-    removeBiomeModifier(e, 'nomansland:old_growth_birch_forest/remove_features')
-    removeBiomeModifier(e, 'nomansland:bamboo_jungle/change_color')
-    removeBiomeModifier(e, 'nomansland:jungle/change_color')
-    removeBiomeModifier(e, 'nomansland:sparse_jungle/change_color')
-    removeBiomeModifier(e, 'nomansland:savanna/change_color')
-    removeBiomeModifier(e, 'nomansland:savanna/remove_features')
-    removeBiomeModifier(e, 'nomansland:savanna_plateau/change_color')
-    removeBiomeModifier(e, 'nomansland:savanna_plateau/remove_features')
-    removeBiomeModifier(e, 'nomansland:windswept_savanna/change_color')
-    removeBiomeModifier(e, 'nomansland:windswept_savanna/remove_features')
+    // removeBiomeModifier(e, 'nomansland:birch_forest/change_color')
+    // removeBiomeModifier(e, 'nomansland:birch_forest/remove_features')
+    // removeBiomeModifier(e, 'nomansland:old_growth_birch_forest/change_color')
+    // removeBiomeModifier(e, 'nomansland:old_growth_birch_forest/remove_features')
+    // removeBiomeModifier(e, 'nomansland:bamboo_jungle/change_color')
+    // removeBiomeModifier(e, 'nomansland:jungle/change_color')
+    // removeBiomeModifier(e, 'nomansland:sparse_jungle/change_color')
+    // removeBiomeModifier(e, 'nomansland:savanna/change_color')
+    // removeBiomeModifier(e, 'nomansland:savanna/remove_features')
+    // removeBiomeModifier(e, 'nomansland:savanna_plateau/change_color')
+    // removeBiomeModifier(e, 'nomansland:savanna_plateau/remove_features')
+    // removeBiomeModifier(e, 'nomansland:windswept_savanna/change_color')
+    // removeBiomeModifier(e, 'nomansland:windswept_savanna/remove_features')
 
+    /*
     // snowy taiga would have the same effects as grove
     removeBiomeModifier(e, 'nomansland:snowy_taiga/change_color')
     e.json('kubejs:lithostitched/worldgen_modifier/replace_effects/snowy_taiga', {
@@ -147,6 +148,7 @@ function worldgen_NoMansLand(e) {
             ]
         }
     })
+    */
 
     // environmental duckweed placement for NML
     registerFeature(e, CONFIGURED, 'nomansland:patch_duckweed', {
@@ -194,5 +196,38 @@ function worldgen_NoMansLand(e) {
             { type: 'minecraft:heightmap', heightmap: 'WORLD_SURFACE_WG' },
             { type: 'minecraft:biome' }
         ]
+    })
+
+    // remove frosted grass
+    registerFeature(e, CONFIGURED, 'nomansland:patch_grass_snowy', {
+        type: 'minecraft:random_patch',
+        config: {
+            feature: {
+                feature: {
+                    type: 'minecraft:simple_block',
+                    config: {
+                        to_place: {
+                            type: 'minecraft:weighted_state_provider',
+                            entries: [
+                                { data: { Name: 'minecraft:short_grass' }, weight: 8 },
+                                { data: { Name: 'nomansland:grass_sprouts' }, weight: 4 }
+                            ]
+                        }
+                    }
+                },
+                placement: [
+                    {
+                        type: 'minecraft:block_predicate_filter',
+                        predicate: {
+                            type: 'minecraft:matching_blocks',
+                            blocks: 'minecraft:air'
+                        }
+                    }
+                ]
+            },
+            tries: 32,
+            xz_spread: 7,
+            y_spread: 3
+        }
     })
 }

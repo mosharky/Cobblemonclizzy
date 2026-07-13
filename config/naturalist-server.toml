@@ -12,14 +12,14 @@
 	elephant_removed = false
 	firefly_removed = false
 	forest_fox_removed = false
-	forest_rabbit_removed = false
+	forest_rabbit_removed = true
 	giraffe_removed = false
 	hippo_removed = false
 	lion_removed = false
 	lizard_removed = false
 	rhino_removed = false
-	snail_removed = false
+	snail_removed = true
 	snake_removed = false
-	tortoise_removed = false
+	tortoise_removed = true
 	vulture_removed = false
 	zebra_removed = false

@@ -23,7 +23,7 @@
   "fieldGuideScanDistance": 4.0,
   "lensScanDistance": 6.0,
   "enableLensDiscovery": true,
-  "lensDiscoveryDistance": 24.0,
+  "lensDiscoveryDistance": 6.0,
   "showUndiscoveredNames": false,
   "hideUndiscoveredFromSearch": false,
   "scanSpeed": 1.0,

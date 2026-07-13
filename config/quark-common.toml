@@ -95,7 +95,7 @@
 
 [building]
 	"Celebratory Lamps" = false
-	"Compressed Blocks" = false
+	"Compressed Blocks" = true
 	"Duskbound Blocks" = false
 	"Framed Glass" = true
 	"Glass Item Frame" = true
@@ -103,29 +103,29 @@
 	Grate = false
 	Hedges = true
 	"Hollow Logs" = true
-	"Industrial Palette" = false
+	"Industrial Palette" = true
 	"Japanese Palette" = true
 	"Leaf Carpet" = false
-	Midori = false
+	Midori = true
 	"More Brick Types" = false
 	"More Mud Blocks" = false
 	"More Potted Plants" = false
 	"Nether Brick Fence Gate" = false
 	"Rainbow Lamps" = false
 	"Raw Metal Bricks" = true
-	Rope = false
+	Rope = true
 	"Shear Vines" = false
 	Shingles = true
 	"Soul Sandstone" = false
 	Stools = false
-	"Sturdy Stone" = false
+	"Sturdy Stone" = true
 	Thatch = false
 	"Variant Bookshelves" = false
 	"Variant Chests" = false
 	"Variant Furnaces" = false
 	"Variant Ladders" = false
 	"Vertical Planks" = false
-	"Vertical Slabs" = false
+	"Vertical Slabs" = true
 	"Wooden Posts" = true
 	"More Stone Variants" = false
 
@@ -140,22 +140,22 @@
 		"Blaze Lantern Fuel Time" = 24000
 		#Allowed values: [0,)
 		"Stick Block Fuel Time" = 900
-		"Enable Charcoal Block" = true
+		"Enable Charcoal Block" = false
 		"Enable Sugar Cane Block" = true
 		"Enable Cactus Block" = true
 		"Enable Chorus Fruit Block" = true
 		"Enable Stick Block" = true
-		"Enable Apple Crate" = true
+		"Enable Apple Crate" = false
 		"Enable Golden Apple Crate" = true
-		"Enable Potato Crate" = true
-		"Enable Carrot Crate" = true
+		"Enable Potato Crate" = false
+		"Enable Carrot Crate" = false
 		"Enable Golden Carrot Crate" = true
-		"Enable Beetroot Crate" = true
+		"Enable Beetroot Crate" = false
 		"Enable Cocoa Bean Sack" = true
 		"Enable Nether Wart Sack" = true
-		"Enable Gunpowder Sack" = true
-		"Enable Berry Sack" = true
-		"Enable Glow Berry Sack" = true
+		"Enable Gunpowder Sack" = false
+		"Enable Berry Sack" = false
+		"Enable Glow Berry Sack" = false
 		"Enable Blaze Lantern" = true
 		"Enable Bonded Leather" = true
 		"Enable Bonded Rabbit Hide" = true
@@ -777,7 +777,7 @@
 	"Nether Obsidian Spikes" = false
 	"New Stone Types" = false
 	"No More Lava Pockets" = true
-	Permafrost = false
+	Permafrost = true
 	"Spiral Spires" = false
 
 	#(Ashen Trees)

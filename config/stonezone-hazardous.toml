@@ -6,12 +6,18 @@
 	#        "biomesoplenty:redwood"		COMMENT: exclude redwood from Stone Mod for any module
 	#    ]
 	#
-	blacklist = []
+	blacklist = [
+        "quark:soul_sandstone",
+        "quark:limestone",
+        "quark:jasper",
+        "quark:shale",
+        "quark:myalite"
+    ]
 
 [mudtype]
 	#Exclude MudType from all of Modules
 	#	The example is same as StoneType's
-	blacklist = []
+	blacklist = [".*"]
 
 [entryset]
 	#Exclude EntrySet from the module for All of StoneType or MudType
@@ -22,4 +28,8 @@
 	#        "chipped:.*"					COMMENT: .* is an regex which will exclude all of EntrySets from one Module
 	#    ]
 	#
-	blacklist = []
+	blacklist = [
+        "quark:pillar",
+        "quark:carved_bricks",
+        "quark:brick_lattice",
+    ]

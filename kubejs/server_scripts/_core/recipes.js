@@ -14,7 +14,7 @@ function recipes_Core(e) {
     // e.remove({ id: 'vanillabackport:cake' })
 
     // no more ez bread
-    e.remove({ id: 'minecraft:bread' })
+    // e.remove({ id: 'minecraft:bread' })
 
     // Logs into chests
     for (const [mod, woodTypes] of Object.entries(global.WOOD_TYPES)) {

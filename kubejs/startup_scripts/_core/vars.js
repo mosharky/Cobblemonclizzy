@@ -144,17 +144,19 @@ const woodTypesToConstruct = {
         cherry: true,
         crimson: true,
         warped: true,
-        pale_oak: true,  // vanilla backport's mod id changed
+        pale_oak: false,  // vanilla backport's mod id changed
     },
-    // quark: {
-    // azalea: false,
-    // ancient: false,
-    // blossom: false,
-    // },
+    quark: {
+        azalea: false,
+        ancient: false,
+        blossom: false,
+    },
+    /*
     upgrade_aquatic: {
         driftwood: true,
         river: true,
     },
+    */
     atmospheric: {
         grimwood: true,
         rosewood: true,
@@ -168,17 +170,22 @@ const woodTypesToConstruct = {
         willow: false,
         pine: true,
         plum: true,
-        wisteria: false,
+        wisteria: true,
     },
-    // endergetic: {
-    // poise: true,
-    // },
+    /*
+    endergetic: {
+        poise: true,
+    },
+    */
+    /*
     autumnity: {
         maple: false,
     },
-    // caverns_and_chasms: {
-    // azalea: true,
-    // },
+    */
+    caverns_and_chasms: {
+        azalea: true,
+    },
+    /*
     natures_spirit: {
         redwood: true,
         sugi: true,
@@ -198,52 +205,73 @@ const woodTypesToConstruct = {
         mahogany: true,
         saxaul: true,
     },
-    // windswept: {
-    // holly: true,
-    // chestnut: true,
-    // pine: true
-    // },
+    */
+   /*
+    windswept: {
+        holly: true,
+        chestnut: true,
+        pine: true
+    },
+    */
     darkerdepths: {
         petrified: true,
     },
+    /*
     mynethersdelight: {
         powdery: true,
     },
+    */
+    /*
     gardens_of_the_dead: {
         whistlecane: true,
         soulblight: true,
     },
-    // collectorsreap: {
-    // lucuma: true,
-    // },
-    // netherexp: {
-    // claret: true,
-    // smokestalk: true,
-    // },
-    // goety: {
-    // haunted: true,
-    // rotten: true,
-    // windswept: true,
-    // pine: false,
-    // chorus: true,
-    // corrupt_chorus: true,
-    // },
-    // cataclysm: {
-    // chorus: false,
-    // },
-    // alexscaves: {
-    // pewen: true,
-    // thornwood: true,
-    // },
+    */
+    /*
+    collectorsreap: {
+        lucuma: true,
+    },
+    */
+    /*
+    netherexp: {
+        claret: true,
+        smokestalk: true,
+    },
+    */
+    /*
+    goety: {
+        haunted: true,
+        rotten: true,
+        windswept: true,
+        pine: false,
+        chorus: true,
+        corrupt_chorus: true,
+    },
+    */
+    /*
+    cataclysm: {
+        chorus: false,
+    },
+    */
+    /*
+    alexscaves: {
+        pewen: true,
+        thornwood: true,
+    },
+    */
     malum: {
         runewood: true,
         soulwood: true,
     },
-    // unusual_prehistory: {
-    // ginkgo: true,
-    // lepidodendron: true,
-    // },
-    // unusualend: {
-    // chorus_nest: true,
-    // },
+    /*
+    unusual_prehistory: {
+        ginkgo: true,
+        lepidodendron: true,
+    },
+    */
+    /*
+    unusualend: {
+        chorus_nest: true,
+    },
+    */
 }

@@ -21,7 +21,7 @@
 [metaltype]
 	#Exclude one or all of Supported-Mod for MetalType
 	#	The example is same as CrystalType's
-	blacklist = []
+	blacklist = ["embers:lead", "embers:silver", "oreganized:silver"]
 
 [entryset]
 	#Exclude EntrySet from the module for All of CrystalType, DustType, GemType, MetalType

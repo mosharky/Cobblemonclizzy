@@ -19,7 +19,7 @@ function lootReplacements_Core(all) {
 
 /** @param {$LootModificationEvent} e */
 function lootTables_Core(e) {
-    e.addEntityModifier('minecraft:ravager').addLoot('kubejs:ravager_hide')
+    // e.addEntityModifier('minecraft:ravager').addLoot('kubejs:ravager_hide')
     // e.addEntityModifier('goety:ravager').addLoot('kubejs:ravager_hide')
     // e.addEntityModifier('goety:trampler').addLoot('kubejs:ravager_hide')
 }

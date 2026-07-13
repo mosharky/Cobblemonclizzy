@@ -141,7 +141,7 @@
 	/**
 	 * Whether recipes should have a button to set as default.
 	 */
-	recipe-default-button: true;
+	recipe-default-button: false;
 
 	/**
 	 * Whether recipes should have a button to show the recipe tree.
@@ -167,17 +167,17 @@
 	/**
 	 * The pages in the left sidebar
 	 */
-	left-sidebar-pages: favorites;
+	left-sidebar-pages: craftables, favorites;
 
 	/**
 	 * The subpanels in the left sidebar
 	 */
-	left-sidebar-subpanels: none;
+	left-sidebar-subpanels: craft-history 1;
 
 	/**
 	 * How many columns and rows of ingredients to limit the left sidebar to
 	 */
-	left-sidebar-size: 12, 100;
+	left-sidebar-size: 8, 7;
 
 	/**
 	 * How much space to maintain between the left sidebar and obstructions, in pixels
@@ -187,7 +187,7 @@
 	/**
 	 * Where to position the left sidebar
 	 */
-	left-sidebar-align: left, top;
+	left-sidebar-align: right, center;
 
 	/**
 	 * Whether to render the header buttons and page count for the left sidebar
@@ -197,17 +197,17 @@
 	/**
 	 * Which theme to use for the left sidebar
 	 */
-	left-sidebar-theme: transparent;
+	left-sidebar-theme: vanilla;
 
 	/**
 	 * The pages in the right sidebar
 	 */
-	right-sidebar-pages: index, craftables;
+	right-sidebar-pages: index;
 
 	/**
 	 * The subpanels in the right sidebar
 	 */
-	right-sidebar-subpanels: none;
+	right-sidebar-subpanels: lookup-history 1;
 
 	/**
 	 * How many columns and rows of ingredients to limit the right sidebar to
@@ -232,7 +232,7 @@
 	/**
 	 * Which theme to use for the right sidebar
 	 */
-	right-sidebar-theme: transparent;
+	right-sidebar-theme: modern;
 
 	/**
 	 * The pages in the top sidebar
@@ -430,7 +430,7 @@
 	/**
 	 * Copies the hovered recipe's ID to the clipboard
 	 */
-	copy-recipe-id: "key.keyboard.unknown";
+	copy-recipe-id: "ctrl key.keyboard.c";
 
 	/**
 	 * In edit mode, hide the hovered stack
@@ -468,14 +468,14 @@
 	/**
 	 * Whether hovering the output of a recipe should show the recipe's EMI ID.
 	 */
-	show-recipe-ids: false;
+	show-recipe-ids: true;
 
 	/**
 	 * Whether to display additional widgets added to recipes from other mods.
 	 * These are typically developer facing and compatibility related, and not useful
 	 * for players.
 	 */
-	show-recipe-decorators: false;
+	show-recipe-decorators: true;
 
 	/**
 	 * Whether stacks in the index should display a highlight if they have a recipe

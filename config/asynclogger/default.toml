@@ -3,5 +3,5 @@
 [filtering]
 levels = []
 loggers = []
-strings = ["Detected setBlock"]
+strings = []
 regexes = []

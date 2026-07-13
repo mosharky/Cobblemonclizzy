@@ -3,7 +3,7 @@
 // JSDoc IntelliSense
 /**
  * Base KJS events
- * @typedef {import("@package/dev/latvian/mods/kubejs/server/tag").$TagKubeEvent} $TagKubeEvent
+ * @typedef {import("@side-only/server/events").TagEvent<any>} $TagKubeEvent
  * @typedef {import("@package/dev/latvian/mods/kubejs/recipe").$RecipesKubeEvent} $RecipesKubeEvent
  * @typedef {import("@package/dev/latvian/mods/kubejs/generator").$KubeDataGenerator} $KubeDataGenerator
  * LootJS events/builder

@@ -1,6 +1,6 @@
 /** @param {$RecipesKubeEvent} e  */
 function recipes_NoMansLand(e) {
-    e.replaceInput({}, 'nomansland:walnuts', 'bountifulfares:walnut')
+    // e.replaceInput({}, 'nomansland:walnuts', 'bountifulfares:walnut')
 
     // theres an error on this recipe bruh and i cant use kubejs create
     e.custom({

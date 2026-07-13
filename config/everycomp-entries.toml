@@ -32,10 +32,18 @@
 			brass = true
 
 		[types.metal_type.embers]
-			lead = true
-			silver = true
+			lead = false
+			silver = false
 			dawnstone = true
 			mithril = true
+
+		[types.metal_type.oreganized]
+			silver = false
+			lead = true
+			electrum = true
+
+		[types.metal_type.netherdescent]
+			pendorite = true
 
 		[types.gem_type.cobblemon]
 			fire_stone = true
@@ -73,11 +81,11 @@
 			scorchia = true
 
 		[types.stone_type.quark]
-			soul_sandstone = true
-			limestone = true
-			jasper = true
-			shale = true
-			myalite = true
+			soul_sandstone = false
+			limestone = false
+			jasper = false
+			shale = false
+			myalite = false
 			permafrost = true
 
 		[types.stone_type.supplementaries]
@@ -111,6 +119,22 @@
 			silt = true
 			siltstone = true
 
+		[types.stone_type.oreganized]
+			glance = true
+
+		[types.stone_type.infernalexp]
+			shimmer_stone = true
+			dimstone = true
+			dullstone = true
+
+		[types.stone_type.incision]
+			clottage = true
+			weatherrack = true
+			goreshed = true
+
+		[types.stone_type.netherman]
+			samsonit = true
+
 		[types.cake.dungeonsdelight]
 			monster_cake = true
 
@@ -127,9 +151,6 @@
 
 		[types.cake.nomansland]
 			fruit_cake = true
-
-		[types.lantern.netherexp]
-			ancient_lantern = true
 
 		[types.lantern.darkerdepths]
 			glowshroom_lantern = true
@@ -151,10 +172,11 @@
 		[types.lantern.enderscape]
 			bulb_lantern = true
 
-		[types.wood_type.abundant_atmosphere]
-			red_bamboo = true
-			ashroot = true
-			gourdrot = true
+		[types.lantern.infernalexp]
+			glowlight_lantern = true
+
+		[types.lantern.netherdescent]
+			pendorite_lantern = true
 
 		[types.wood_type.dungeonsdelight]
 			wormwood = true
@@ -162,16 +184,13 @@
 		[types.wood_type.caverns_and_chasms]
 			azalea = true
 
-		[types.wood_type.netherexp]
-			claret = true
-
 		[types.wood_type.darkerdepths]
 			petrified = true
 
 		[types.wood_type.quark]
-			azalea = true
-			ancient = true
-			blossom = true
+			azalea = false
+			ancient = false
+			blossom = false
 
 		[types.wood_type.cobblemon]
 			apricorn = true
@@ -197,14 +216,10 @@
 			weeping_gala = true
 
 		[types.wood_type.environmental]
-			willow = true
+			willow = false
 			pine = true
 			plum = true
 			wisteria = true
-
-		[types.wood_type.upgrade_aquatic]
-			driftwood = true
-			river = true
 
 		[types.wood_type.enderscape]
 			veiled = true
@@ -234,13 +249,22 @@
 			runewood = true
 			soulwood = true
 
+		[types.wood_type.infernalexp]
+			luminous = true
+
+		[types.wood_type.netherdescent]
+			wailing = true
+			embur = true
+			arisian = true
+			sythian = true
+
 		[types.leaves_type.quark]
-			ancient = true
-			blue_blossom = true
-			lavender_blossom = true
-			orange_blossom = true
-			yellow_blossom = true
-			red_blossom = true
+			ancient = false
+			blue_blossom = false
+			lavender_blossom = false
+			orange_blossom = false
+			yellow_blossom = false
+			red_blossom = false
 
 		[types.leaves_type.cobblemon]
 			apricorn = true
@@ -267,16 +291,12 @@
 			white = true
 			yellow = true
 
-		[types.leaves_type.abundant_atmosphere]
-			ashroot = true
-			gourdrot = true
-
 		[types.leaves_type.galosphere]
 			opal = true
 
 		[types.leaves_type.environmental]
 			hibiscus = true
-			willow = true
+			willow = false
 			pine = true
 			plum = true
 			cheerful_plum = true
@@ -286,9 +306,6 @@
 			blue_wisteria = true
 			purple_wisteria = true
 			white_wisteria = true
-
-		[types.leaves_type.upgrade_aquatic]
-			river = true
 
 		[types.leaves_type.atmospheric]
 			rosewood = true
@@ -313,16 +330,19 @@
 			red_maple = true
 			walnut = true
 			willow = true
-			apple_fruit = true
-			pear_fruit = true
+			apple_fruit = false
+			pear_fruit = false
 
 		[types.leaves_type.spawn]
-			date = true
+			date = false
 
 		[types.leaves_type.malum]
 			runewood = true
 			azure_runewood = true
 			soulwood = true
+
+		[types.leaves_type.netherdescent]
+			arisian = true
 
 		[entries.metal_type.minecraft]
 			nugget = true
@@ -365,16 +385,16 @@
 
 		[entries.stone_type.quark]
 			polished_vertical_slab = true
-			pillar = true
+			pillar = false
 			vertical_slab = true
 
 		[entries.mud_type.quark]
-			carved_bricks = true
-			pillar = true
-			brick_lattice = true
+			carved_bricks = false
+			pillar = false
+			brick_lattice = false
 
 		[entries.wood_type.nomansland]
-			bookshelf = true
+			bookshelf = false
 			trimmed_planks = true
 
 		[entries.wood_type.boatload]
@@ -408,13 +428,13 @@
 
 		[entries.wood_type.quark]
 			hollow_log = true
-			vertical_planks = true
+			vertical_planks = false
 			post = true
-			trapped_chest = true
-			bookshelf = true
-			chest = true
+			trapped_chest = false
+			bookshelf = false
+			chest = false
 			stripped_post = true
-			ladder = true
+			ladder = false
 			vertical_slab = true
 
 		[entries.wood_type.backpacked]
@@ -422,7 +442,7 @@
 
 		[entries.leaves_type.quark]
 			hedge = true
-			leaf_carpet = true
+			leaf_carpet = false
 
 		[entries.leaves_type.woodworks]
 			leaf_pile = true
