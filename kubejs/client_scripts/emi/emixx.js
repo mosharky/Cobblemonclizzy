@@ -2,7 +2,7 @@
 /** @param {$KubeAssetGenerator} e */
 function clientData_EMIxx(e) {
     function createTagGroup(tag) {
-        e.add(`kubejs:stack_groups/${tag.split(':')[1]}`, {
+        e.json(`kubejs:stack_groups/${tag.split(':')[1]}`, {
             type: 'emixx:tag',
             tag: tag
         })
@@ -21,7 +21,7 @@ function clientData_EMIxx(e) {
             obj.contents.push(contentObj)
         })
 
-        e.add(`kubejs:stack_groups/${itemsArray[0].split(':')[1]}`, obj)
+        e.json(`kubejs:stack_groups/${itemsArray[0].split(':')[1]}`, obj)
     }
 
     /*

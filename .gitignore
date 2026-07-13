@@ -69,7 +69,7 @@ shaderpacks/*EuphoriaPatches*
 /.lazyyyyy/
 /cache/
 /.cache/
-/mod_data/
+# /mod_data/
 /.mixin.out/
 /xaero/
 /ESM/
@@ -128,9 +128,9 @@ ponders_watched_azimuth.json
 /py_scripts/__pycache__/
 /py_scripts/py_scripts.log
 /py_scripts/generated/
-kubejs/mod_data/__pycache__/
-kubejs/mod_data/mod_data.log
-kubejs/mod_data/generated/
+mod_data/__pycache__/
+mod_data/mod_data.log
+mod_data/generated/
 
 # launcher-related
 .curseclient

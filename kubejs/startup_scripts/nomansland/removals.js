@@ -43,4 +43,8 @@ function removals_NoMansLand() {
     global.BLOCK_SWAPPER.set('nomansland:mossy_cobblestone_brick_slab', 'caverns_and_chasms:mossy_cobblestone_brick_slab')
     global.BLOCK_SWAPPER.set('nomansland:mossy_cobblestone_brick_stairs', 'caverns_and_chasms:mossy_cobblestone_brick_stairs')
     global.BLOCK_SWAPPER.set('nomansland:mossy_cobblestone_brick_wall', 'caverns_and_chasms:mossy_cobblestone_brick_wall')
+    // Bookshelves
+    for (const [woodType, woodTypeObj] of Object.entries(global.WOOD_TYPES.minecraft)) {
+        global.BLOCK_SWAPPER.set('nomansland:' + woodType + '_bookshelf', woodTypeObj.woodworks.bookshelf)
+    }
 }

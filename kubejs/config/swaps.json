@@ -1100,11 +1100,21 @@
 		"nomansland:mossy_cobblestone_bricks": "caverns_and_chasms:mossy_cobblestone_bricks",
 		"nomansland:mossy_cobblestone_brick_slab": "caverns_and_chasms:mossy_cobblestone_brick_slab",
 		"nomansland:mossy_cobblestone_brick_stairs": "caverns_and_chasms:mossy_cobblestone_brick_stairs",
-		"nomansland:mossy_cobblestone_brick_wall": "caverns_and_chasms:mossy_cobblestone_brick_wall"
+		"nomansland:mossy_cobblestone_brick_wall": "caverns_and_chasms:mossy_cobblestone_brick_wall",
+		"nomansland:oak_bookshelf": "minecraft:bookshelf",
+		"nomansland:spruce_bookshelf": "woodworks:spruce_bookshelf",
+		"nomansland:birch_bookshelf": "woodworks:birch_bookshelf",
+		"nomansland:jungle_bookshelf": "woodworks:jungle_bookshelf",
+		"nomansland:dark_oak_bookshelf": "woodworks:dark_oak_bookshelf",
+		"nomansland:acacia_bookshelf": "woodworks:acacia_bookshelf",
+		"nomansland:mangrove_bookshelf": "woodworks:mangrove_bookshelf",
+		"nomansland:bamboo_bookshelf": "woodworks:bamboo_bookshelf",
+		"nomansland:cherry_bookshelf": "woodworks:cherry_bookshelf",
+		"nomansland:crimson_bookshelf": "woodworks:crimson_bookshelf",
+		"nomansland:warped_bookshelf": "woodworks:warped_bookshelf"
 	},
 	"entity_swapper": {
 		"quark:wraith": "caverns_and_chasms:mime",
-		"quark:foxhound": "alexsmobs:dropbear",
 		"quark:shiba": "minecraft:wolf",
 		"quark:crab": "minecraft:frog"
 	},

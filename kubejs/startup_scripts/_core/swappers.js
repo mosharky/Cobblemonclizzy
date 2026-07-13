@@ -71,7 +71,12 @@ function processSwappers() {
                 }
             })
         })
-        JsonIO.write('kubejs/config/swaps.json', configObj)
+
+        if (!Platform.isLoaded('reliable_replacer')) {
+            JsonIO.write('kubejs/config/swaps.json', configObj)
+        } else {
+
+        }
         console.log('Finished processing swappers!')
     }
 }
