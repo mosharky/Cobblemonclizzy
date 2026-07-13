@@ -1,5 +1,4 @@
 MoreJS.playerStartTrading(e => {
-    /*
     // ⚠️ AUTO CONVERTING ⚠️ (an attempt)
     if (global.DEBUG_MODE) console.log('TRADING WITH: ' + e.getMerchant().getClass().getName())
     e.forEachOffers((o, i) => {
@@ -27,5 +26,4 @@ MoreJS.playerStartTrading(e => {
         // TODO: doesnt work on wandering trader? maybe just for the alexs mobs elephant trader?
         if (global.REMOVALS.set.has(outputId)) o.setDisabled(true)
     })
-    */
 })

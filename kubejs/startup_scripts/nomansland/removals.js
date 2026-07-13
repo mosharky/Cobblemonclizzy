@@ -2,8 +2,8 @@ function removals_NoMansLand() {
     global.REMOVALS.add([
         'nomansland:short_beachgrass',
         'nomansland:tall_beachgrass',
-        'nomansland:sconce_torch',
-        'nomansland:sconce_soul_torch',
+        // 'nomansland:sconce_torch',
+        // 'nomansland:sconce_soul_torch',
         'nomansland:frosted_grass',
         // 'nomansland:icicles',
         'nomansland:barrel_cactus',

@@ -3752,58 +3752,6 @@
       0,
       0
     ],
-    "lootr:1cart": [
-      32,
-      94
-    ],
-    "lootr:1barrel": [
-      32,
-      148
-    ],
-    "lootr:1chest": [
-      32,
-      67
-    ],
-    "lootr:pot_opened": [
-      32,
-      27
-    ],
-    "lootr:archaeologist": [
-      64,
-      27
-    ],
-    "lootr:all_gravel": [
-      32,
-      0
-    ],
-    "lootr:1shulker": [
-      32,
-      121
-    ],
-    "lootr:social": [
-      64,
-      54
-    ],
-    "lootr:1frame": [
-      32,
-      175
-    ],
-    "lootr:10loot": [
-      64,
-      81
-    ],
-    "lootr:25loot": [
-      96,
-      81
-    ],
-    "lootr:50loot": [
-      128,
-      81
-    ],
-    "lootr:100loot": [
-      160,
-      81
-    ],
     "dungeonsdelight:main/root": [
       0,
       286
@@ -4195,6 +4143,198 @@
     "pastel:lategame/shoot_fully_overcharged_crossbow": [
       256,
       216
+    ],
+    "infernalexp:husbandry/hot_pocket": [
+      32,
+      1525
+    ],
+    "infernalexp:husbandry/magma_mia": [
+      64,
+      1525
+    ],
+    "infernalexp:husbandry/freeze_punk": [
+      96,
+      1525
+    ],
+    "infernalexp:nether/pressure_cooker": [
+      32,
+      54
+    ],
+    "infernalexp:nether/deer_in_headlights": [
+      32,
+      148
+    ],
+    "incision:calciumlegos": [
+      0,
+      0
+    ],
+    "incision:helpyourselfnow": [
+      32,
+      0
+    ],
+    "netherman:enter_maze": [
+      0,
+      0
+    ],
+    "incision:tonightsthenight": [
+      0,
+      0
+    ],
+    "incision:momsspagetti": [
+      0,
+      0
+    ],
+    "fdbosses:qliphoth_awakening/root": [
+      0,
+      27
+    ],
+    "fdbosses:qliphoth_awakening/malkuth": [
+      32,
+      54
+    ],
+    "fdbosses:qliphoth_awakening/chesed": [
+      32,
+      27
+    ],
+    "fdbosses:qliphoth_awakening/geburah": [
+      32,
+      0
+    ],
+    "netherman:enter_mansion": [
+      0,
+      27
+    ],
+    "netherman:tame_ghastly": [
+      32,
+      54
+    ],
+    "netherman:kill_azazel": [
+      32,
+      0
+    ],
+    "netherman:azazel": [
+      32,
+      27
+    ],
+    "netherdescent:root": [
+      0,
+      141
+    ],
+    "netherdescent:final_descent": [
+      32,
+      40
+    ],
+    "netherdescent:crimson_gardens/root": [
+      32,
+      121
+    ],
+    "netherdescent:crimson_gardens/raw_pendorite": [
+      64,
+      108
+    ],
+    "netherdescent:crimson_gardens/pendorite_wolf_armor": [
+      96,
+      135
+    ],
+    "netherdescent:crimson_gardens/pendorite_horse_armor": [
+      96,
+      108
+    ],
+    "netherdescent:arisian_undergrowth/root": [
+      32,
+      67
+    ],
+    "netherdescent:embur_bog/root": [
+      32,
+      189
+    ],
+    "netherdescent:wailing_garth/root": [
+      32,
+      270
+    ],
+    "netherdescent:crimson_gardens/fungal_bulbs": [
+      64,
+      135
+    ],
+    "netherdescent:arisian_undergrowth/step_on_thorn_sprout": [
+      64,
+      54
+    ],
+    "netherdescent:wailing_garth/float_from_wailing_gills": [
+      64,
+      297
+    ],
+    "netherdescent:sythian_torrids/root": [
+      32,
+      13
+    ],
+    "netherdescent:embur_bog/sprint_on_embur_gel": [
+      64,
+      189
+    ],
+    "netherdescent:embur_bog/kill_hornet": [
+      64,
+      162
+    ],
+    "netherdescent:crimson_gardens/pendorite_fire_rod": [
+      96,
+      81
+    ],
+    "netherdescent:crimson_gardens/summon_pendorite_blaze": [
+      128,
+      81
+    ],
+    "netherdescent:sythian_torrids/obtain_sythian_scaffolding": [
+      64,
+      27
+    ],
+    "netherdescent:sythian_torrids/smelted_sythian_stalk": [
+      64,
+      0
+    ],
+    "netherdescent:embur_bog/find_blue_fortress": [
+      64,
+      216
+    ],
+    "netherdescent:arisian_undergrowth/step_on_arisian_leaves_blossom": [
+      64,
+      81
+    ],
+    "netherdescent:wailing_garth/step_on_wailing_bulb_blossom": [
+      64,
+      243
+    ],
+    "netherdescent:embur_bog/place_flower_near_hornet": [
+      96,
+      162
+    ],
+    "netherdescent:wailing_garth/kill_soul_ghast": [
+      64,
+      270
+    ],
+    "netherdescent:embur_bog/boat_ride_on_embur_gel": [
+      96,
+      189
+    ],
+    "netherdescent:wailing_garth/float_cow_from_wailing_gills": [
+      96,
+      297
+    ],
+    "netherdescent:embur_bog/obtain_soul_blaze_rod": [
+      96,
+      216
+    ],
+    "netherdescent:sythian_torrids/place_stalk_on_farmland": [
+      96,
+      0
+    ],
+    "netherdescent:embur_bog/obtain_soul_fire_rod": [
+      128,
+      216
+    ],
+    "quark:content/get_all_corundum": [
+      128,
+      81
     ]
   },
   "tab_properties": {
@@ -4589,6 +4729,76 @@
       "background_rules": "[]"
     },
     "pastel:lategame/pastel_lategame": {
+      "title": "",
+      "static_background": false,
+      "bg_width": 16,
+      "bg_height": 16,
+      "width": 0,
+      "height": 0,
+      "index": 5,
+      "background_rules": "[]"
+    },
+    "incision:calciumlegos": {
+      "title": "",
+      "static_background": false,
+      "bg_width": 16,
+      "bg_height": 16,
+      "width": 0,
+      "height": 0,
+      "index": 5,
+      "background_rules": "[]"
+    },
+    "netherman:enter_maze": {
+      "title": "",
+      "static_background": false,
+      "bg_width": 16,
+      "bg_height": 16,
+      "width": 0,
+      "height": 0,
+      "index": 5,
+      "background_rules": "[]"
+    },
+    "incision:tonightsthenight": {
+      "title": "",
+      "static_background": false,
+      "bg_width": 16,
+      "bg_height": 16,
+      "width": 0,
+      "height": 0,
+      "index": 5,
+      "background_rules": "[]"
+    },
+    "incision:momsspagetti": {
+      "title": "",
+      "static_background": false,
+      "bg_width": 16,
+      "bg_height": 16,
+      "width": 0,
+      "height": 0,
+      "index": 5,
+      "background_rules": "[]"
+    },
+    "fdbosses:qliphoth_awakening/root": {
+      "title": "",
+      "static_background": false,
+      "bg_width": 16,
+      "bg_height": 16,
+      "width": 0,
+      "height": 0,
+      "index": 5,
+      "background_rules": "[]"
+    },
+    "netherman:enter_mansion": {
+      "title": "",
+      "static_background": false,
+      "bg_width": 16,
+      "bg_height": 16,
+      "width": 0,
+      "height": 0,
+      "index": 5,
+      "background_rules": "[]"
+    },
+    "netherdescent:root": {
       "title": "",
       "static_background": false,
       "bg_width": 16,

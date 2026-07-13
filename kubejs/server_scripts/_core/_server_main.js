@@ -10,12 +10,7 @@ ServerEvents.tags('item', e => {
     itemTags_Core(e)
     itemTags_Neapolitan(e)
     itemTags_Naturalist(e)
-
-    if (!global.DEBUG_MODE) {
-        e.add('c:hidden_from_recipe_viewers', global.REMOVALS.arr.concat([
-            /excavated_variants:.*/,
-        ]))
-    }
+    itemTags_SimpleTMs(e)
 })
 
 ServerEvents.tags('block', e => {
@@ -46,6 +41,7 @@ ServerEvents.tags('worldgen/biome', e => {
     // biomeTags_BountifulFares(e)
     biomeTags_Oreganized(e)
     biomeTags_Malum(e)
+    biomeTags_Incision(e)
 
     // these changes need to load way later
     biomeTags_Core(e)
@@ -88,7 +84,7 @@ ServerEvents.recipes(e => {
 ServerEvents.loaded(e => {
     // Default game rules
     if (e.server.persistentData.gameRules) return
-    // e.server.gameRules.set('playersSleepingPercentage', 1)
+    e.server.gameRules.set('playersSleepingPercentage', 1)
     e.server.gameRules.set('spawnRadius', 0)
     e.server.gameRules.set('disableElytraMovementCheck', true)
     // e.server.gameRules.set('decorative_blocks:disableThatch', true)
@@ -118,6 +114,7 @@ ServerEvents.generateData('after_mods', e => {
     worldgen_NoMansLand(e)
     // worldgen_ArtsAndCrafts(e)
     worldgen_Embers(e)
+    worldgen_Malum(e)
 
     structures_Core(e)
 })

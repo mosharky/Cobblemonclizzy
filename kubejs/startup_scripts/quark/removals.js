@@ -1,6 +1,6 @@
 function removals_Quark() {
     global.REMOVALS.add([
-        /quark:.*(dirt_bricks|chest|ladder|bookshelf|leaf_carpet|thatch|blossom|cobblestone_brick|limestone|jasper|andesite_brick|dripstone_brick|shale|corundum).*/,
+        /quark:.*(dirt_bricks|chest|ladder|bookshelf|leaf_carpet|thatch|blossom|cobblestone_brick|limestone|jasper|andesite_brick|dripstone_brick|shale).*/,
         /quark:.*(crab|foxhound|shiba|wraith).*/,
         /quark:.*ancient(?!_tome|_fruit).*/,
         /quark:.*azalea(?!_hedge).*/,
@@ -81,6 +81,25 @@ function removals_Quark() {
     global.BLOCK_SWAPPER.set('quark:mossy_cobblestone_bricks_slab', 'caverns_and_chasms:mossy_cobblestone_brick_slab')
     global.BLOCK_SWAPPER.set('quark:mossy_cobblestone_bricks_wall', 'caverns_and_chasms:mossy_cobblestone_brick_wall')
     // global.BLOCK_SWAPPER.set('quark:mossy_cobblestone_bricks_vertical_slab', 'v_slab_compat:caverns_and_chasms/mossy_cobblestone_brick_vertical_slab')
+
+    // Corundum
+    /*
+    const switchCorundum = (color, cluster, block, pane, lamp) => {
+        global.BLOCK_SWAPPER.set(`quark:${color}_corundum_cluster`, cluster)
+        global.BLOCK_SWAPPER.set(`quark:${color}_corundum`, block)
+        global.BLOCK_SWAPPER.set(`quark:${color}_pane`, pane)
+        global.BLOCK_SWAPPER.set(`quark:${color}_crystal_lamp`, lamp)
+    }
+    switchCorundum('black', )
+    switchCorundum('blue', 'galosphere:glinted_allurite_cluster', 'galosphere:allurite_block', 'pastel:topaz_glass_pane', 'galosphere:allurite_lamp')
+    switchCorundum('green', )
+    switchCorundum('indigo', )
+    switchCorundum('orange', )
+    switchCorundum('red', )
+    switchCorundum('violet', )
+    switchCorundum('white', )
+    switchCorundum('yellow', 'galosphere:glinted_lumiere_cluster', 'galosphere:lumiere_block', 'pastel:citrine_glass_pane', 'galosphere:lumiere_lamp')
+    */
 
     const swapStone = (stone, extras) => {
         global.BLOCK_SWAPPER.set(`quark:${stone}_bricks`, `caverns_and_chasms:${stone}_bricks`)
@@ -183,7 +202,7 @@ function removals_Quark() {
 
     // Entities
     global.ENTITY_SWAPPER.set('quark:wraith', 'caverns_and_chasms:mime')
-    global.ENTITY_SWAPPER.set('quark:foxhound', 'alexsmobs:dropbear')
+    // global.ENTITY_SWAPPER.set('quark:foxhound', 'alexsmobs:dropbear')
     global.ENTITY_SWAPPER.set('quark:shiba', 'minecraft:wolf')
     global.ENTITY_SWAPPER.set('quark:crab', 'minecraft:frog')
     global.ENTITY_REMOVALS.push(

@@ -26,13 +26,10 @@
     "c:buckets",
     "c:nuggets",
     "minecraft:shovels",
-    "minecraft:splash_potions",
-    "minecraft:tipped_arrows",
     "minecraft:wool_carpets",
     "c:dyes",
     "minecraft:slabs",
     "minecraft:hanging_signs",
-    "minecraft:potions",
     "minecraft:suspicious_stews",
     "minecraft:trapdoors",
     "c:dusts",
@@ -61,7 +58,8 @@
     "c:ores",
     "minecraft:beds",
     "minecraft:decorated_pot_sherds",
-    "minecraft:pickaxes"
+    "minecraft:pickaxes",
+    "minecraft:doors"
   ],
   "stackGroupItemOrder": {},
   "emiOnlyInRecipeBook": false

@@ -1,7 +1,8 @@
 // priority: -1
 
-Platform.setModName('kubejs', 'Remix')
-// Platform.setModName('numismaticoverhaul', 'Numismatic Overhaul')
+Platform.setModName('kubejs', 'Momo')
+Platform.setModName('incision', 'Incision')
+Platform.setModName('cobbledex-rei-emi-jei', 'Cobbledex')
 
 function postInit() {
     // console.log($WoodTypeRegistry.getTypes())
@@ -33,7 +34,7 @@ function postInit() {
     // removals_Goety()
     // removals_ImmersiveWeathering()
     removals_Incubation()
-    // removals_Malum()
+    removals_Malum()
     // removals_MoreMinecarts()
     // removals_MowziesMobs()
     // removals_NaturesSpirit()
@@ -61,31 +62,6 @@ function postInit() {
     // processBlockswapConfig()
     // Virtual blockwsap (without using the blockswap mod)
     processSwappers()
-
-    if (global.DEBUG_MODE) {
-        // console.log('Final removals set:')
-        // console.log(global.REMOVALS.arr)
-
-        let configObj = {
-            removals: global.REMOVALS.arr,
-            item_swapper: {},
-            block_swapper: {},
-            entity_swapper: {},
-            structure_swapper: {},
-            state_swapper: global.STATE_SWAPPER
-        }
-        // Convert maps to objects
-        global.ITEM_SWAPPER.forEach((value, key) => configObj.item_swapper[key] = value)
-        global.BLOCK_SWAPPER.forEach((value, key) => configObj.block_swapper[key] = value)
-        global.ENTITY_SWAPPER.forEach((value, key) => configObj.entity_swapper[key] = value)
-        global.STRUCTURE_BLOCK_SWAPPER.forEach((value, key) => {
-            configObj.structure_swapper[key] = {}
-            value.forEach((v, k) => {
-                configObj.structure_swapper[key][k] = v
-            })
-        })
-        // JsonIO.write('kubejs/config/swaps.json', configObj)
-    }
 }
 
 // For reloading

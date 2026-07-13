@@ -15,8 +15,8 @@ function biomeTags_NoMansLand(e) {
         '#kubejs:classic_soil'
     ])
 
-    // e.removeAll('nomansland:classic_soil')
-    // e.add('nomansland:classic_soil', '#kubejs:classic_soil')
+    e.removeAll('nomansland:classic_soil')
+    e.add('nomansland:classic_soil', '#kubejs:classic_soil')
 
     e.removeAll('nomansland:has_gravel_shore')
     e.add('nomansland:has_gravel_shore', [

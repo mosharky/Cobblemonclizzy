@@ -20,7 +20,7 @@
     },
     "worldGeneration": {
       "enablePlantedQuartz": true,
-      "enableBuriedBone": true
+      "enableBuriedBone": false
     }
   },
   "client": {}
