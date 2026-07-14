@@ -1534,11 +1534,11 @@ hash = "a490503b7aada29403fdcbb234eaad62f492a59aa8e3362d64564ea798004b3b"
 
 [[files]]
 file = "kubejs/server_scripts/_core/player.js"
-hash = "0825a213ec4222a2df86501f64682f89f92b86cf0afd6db31b031660e4bf797d"
+hash = "39e88e8be800ec41e610bbb492dcbbc783ab2df09e1082174cc696f4990a28d3"
 
 [[files]]
 file = "kubejs/server_scripts/_core/recipes.js"
-hash = "1b6874cc7b4ae1dfe0621e5622a4b3f0c30ea63a785bf19e00b8e9e6f864a640"
+hash = "a33b5f82847978a115364c2892e8df2becf62185156c12864854f914879d3a7b"
 
 [[files]]
 file = "kubejs/server_scripts/_core/tags.js"
@@ -1550,7 +1550,7 @@ hash = "242994a26d76547eb47bb04ad841c2a2b7a24635ce2173fa4cce1b809d48ac63"
 
 [[files]]
 file = "kubejs/server_scripts/_core/vars.js"
-hash = "980350f54cd5f6b3cf5defc233ee0442ac452d33f503c70bb5efb29ae70f5936"
+hash = "015cd18fcefbb4d38168c3ac9e56f9707186b13c3b39a6547f5055d82cec5aa2"
 
 [[files]]
 file = "kubejs/server_scripts/_core/worldgen.js"

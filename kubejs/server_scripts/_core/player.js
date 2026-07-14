@@ -18,6 +18,6 @@ global.COMMON_SWAPPER.forEach((replaceWith, toReplace) => {
 PlayerEvents.loggedIn(e => {
     if (!e.player.stages.has('starter_items')) {
         e.player.stages.add('starter_items')
-        e.player.addItem(Item.of(AKASHIC_TOME))
+        // e.player.addItem(Item.of(AKASHIC_TOME))
     }
 })

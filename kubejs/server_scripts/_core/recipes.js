@@ -2,7 +2,7 @@
 function recipes_Core(e) {
     e.replaceInput({ not: { id: 'woodworks:trapped_chest' } }, 'minecraft:chest', '#c:chests/wooden')
 
-    e.shapeless(AKASHIC_TOME, ['minecraft:book', 'minecraft:dirt'])
+    // e.shapeless(AKASHIC_TOME, ['minecraft:book', 'minecraft:dirt'])
 
     // fixes a bug
     e.replaceInput({}, '#c:dough', '#c:foods/dough')

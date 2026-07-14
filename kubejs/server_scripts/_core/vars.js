@@ -20,7 +20,7 @@ ServerEvents.tags('worldgen/biome', e => {
     OVERWORLD_BIOMES = e.get('minecraft:is_overworld').getObjectIds()
 })
 
-let AKASHIC_TOME = 'akashictome:tome[akashictome:tool_content=[{components:{"akashictome:defined_mod":"cobblepedia","patchouli:book":"cobblepedia:cobblepedia"},count:1,id:"patchouli:guide_book"},{components:{"akashictome:defined_mod":"malum"},count:1,id:"malum:encyclopedia_arcana"},{components:{"akashictome:defined_mod":"starcatcher"},count:1,id:"starcatcher:starcatcher_guide"},{components:{"akashictome:defined_mod":"pastel"},count:1,id:"pastel:guidebook"},{components:{"akashictome:defined_mod":"embers"},count:1,id:"embers:ancient_codex"}]]'
+// let AKASHIC_TOME = 'akashictome:tome[akashictome:tool_content=[{components:{"akashictome:defined_mod":"cobblepedia","patchouli:book":"cobblepedia:cobblepedia"},count:1,id:"patchouli:guide_book"},{components:{"akashictome:defined_mod":"malum"},count:1,id:"malum:encyclopedia_arcana"},{components:{"akashictome:defined_mod":"starcatcher"},count:1,id:"starcatcher:starcatcher_guide"},{components:{"akashictome:defined_mod":"pastel"},count:1,id:"pastel:guidebook"},{components:{"akashictome:defined_mod":"embers"},count:1,id:"embers:ancient_codex"}]]'
 
 // Numismatic Overhaul stuff shortened
 const SELL_STACK = 'numismaticoverhaul:sell_stack'
