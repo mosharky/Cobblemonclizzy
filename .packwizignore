@@ -48,9 +48,9 @@ mods/*.disabled
 # !resourcepacks/special-*
 
 # shaderpacks
-shaderpacks/*.zip
-!shaderpacks/special-*
-shaderpacks/*EuphoriaPatches*
+# shaderpacks/*.zip
+# !shaderpacks/special-*
+# shaderpacks/*EuphoriaPatches*
 
 # root folders
 /not-enough-crashes/
@@ -135,15 +135,24 @@ mod_data/generated/
 # launcher-related
 .curseclient
 icon.png
+server-resource-packs/
+coremods/
+texturepacks/
 minecraftinstance.json
 .unsup-state.json
-/.unsup-tmp/
-/server-resource-packs/
-/coremods/
-/texturepacks/
+.unsup-tmp/
 
-# kubejs loading (RE-ENABLE WHEN PACKWIZZING)
+# kubejs loading
 # kubejs/assets/*.zip
 # !kubejs/assets/special-*.zip
 # kubejs/data/*.zip
 # !kubejs/data/special-*.zip
+
+# for packwiz
+/.vscode/
+/mod_data/
+/kubejs/wip_data/
+/kubejs/config/probe-settings.json
+/kubejs/startup_scripts/src/_core/dev.js
+/globalresources/excavated_variants/
+/CODEX.md

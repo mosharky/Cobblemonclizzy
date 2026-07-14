@@ -1,0 +1,13 @@
+name = "Component Viewer"
+filename = "componentviewer-neoforge-1.3.3+1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/P9vIqP8R/versions/OzA3gLQM/componentviewer-neoforge-1.3.3%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "c5b7b40591d29b17ae0095180926e7abc61cd0be00c3562f71705b3b4ab0e70917d562f4ed9595916403b28f997393b964e67dbb3fc19dc07f653a856f016419"
+
+[update]
+[update.modrinth]
+mod-id = "P9vIqP8R"
+version = "OzA3gLQM"

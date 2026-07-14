@@ -1,0 +1,13 @@
+name = "Redomesticate"
+filename = "redomesticate-neoforge-1.21.1-1.9.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/4QTKALKe/versions/7EMslCNI/redomesticate-neoforge-1.21.1-1.9.3.jar"
+hash-format = "sha512"
+hash = "ca0126f773eeea56638e57703c856394ca7a2f8f0404cd6d7183398f5892c4d5cb1ac38afb2bfdebd5cc4a1657ebed04087e2acfb57106e147be673dc21ae1b4"
+
+[update]
+[update.modrinth]
+mod-id = "4QTKALKe"
+version = "7EMslCNI"

@@ -1,0 +1,13 @@
+name = "Create: Envelope compat"
+filename = "create_envelope-2.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/KmqVRyG9/versions/JCu4lx4g/create_envelope-2.0.0.jar"
+hash-format = "sha512"
+hash = "cea7e40bbbfebd55ca41ce23b8dd6e211f2ea75d96dd4ac3961f5a1ec40b84c75844d86bcf6b6b4a41e29a5d77ddfa1610be29888fe774dbdeafb99a0d5d793a"
+
+[update]
+[update.modrinth]
+mod-id = "KmqVRyG9"
+version = "JCu4lx4g"

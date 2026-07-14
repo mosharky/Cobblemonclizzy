@@ -1,0 +1,13 @@
+name = "Music and Melody"
+filename = "music-and-melody-21.1-r3.5.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/dpNZjlVi/versions/GOFl4CuV/music-and-melody-21.1-r3.5.1-neoforge.jar"
+hash-format = "sha512"
+hash = "9969f1789577866c56d5ca683b91f9002a178b645bb0b6cd199969685335e33d460dbc2b4216ed6b156e670d95b50ee55743ad29c755d8ae9618bef0cf3b2be8"
+
+[update]
+[update.modrinth]
+mod-id = "dpNZjlVi"
+version = "GOFl4CuV"

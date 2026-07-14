@@ -1,0 +1,13 @@
+name = "Async Logger"
+filename = "asynclogger-2.1.2+1.21.1-neoforge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/zvNzKfGF/versions/z1G2eJLX/asynclogger-2.1.2%2B1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "d9b4484907a85a297ff75bd16c66579985bcdf0ebf6e5af2787e27127d30e05ebc74644bd52e6162869c86c491c3622fc40c9095652b42560184e2c964fccc35"
+
+[update]
+[update.modrinth]
+mod-id = "zvNzKfGF"
+version = "z1G2eJLX"

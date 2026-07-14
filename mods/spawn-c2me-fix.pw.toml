@@ -1,0 +1,13 @@
+name = "Spawn C2ME Fix"
+filename = "spawn_c2me_fix-1.21.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "16d8c1ca3465da075fad370062bb6e926785a113"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8192526
+project-id = 1561173

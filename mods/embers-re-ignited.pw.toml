@@ -1,0 +1,13 @@
+name = "Embers Re-Ignited"
+filename = "embers-reignited-1.21.1-1.5.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8znVCTxA/versions/neZCtIqH/embers-reignited-1.21.1-1.5.5.jar"
+hash-format = "sha512"
+hash = "79792bf0e137ec9adc090767a89a3920b9fcff30196d6c7c0ffc150f14d6b109f51a642734812dee052c015d0140322c4f84ddb6c86c241faf0ca27bb4c1f9ab"
+
+[update]
+[update.modrinth]
+mod-id = "8znVCTxA"
+version = "neZCtIqH"

@@ -1,0 +1,13 @@
+name = "XP Stream"
+filename = "xp_stream-neoforge-1.21.1-1.1.4.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/QZqv3OuH/versions/xMgTcITM/xp_stream-neoforge-1.21.1-1.1.4.jar"
+hash-format = "sha512"
+hash = "38878b51363d50d9dad3146cd5e0d94dbda64f209c84881c3aad6d1e0f2dde1e9968acfef5e44c76590bd8185a63395be8cdb8e91a168589456912460fa4e7b9"
+
+[update]
+[update.modrinth]
+mod-id = "QZqv3OuH"
+version = "xMgTcITM"

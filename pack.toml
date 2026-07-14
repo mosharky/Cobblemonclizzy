@@ -1,0 +1,13 @@
+name = "Cobblemonclizzy"
+author = "momo"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "c07039f3fa515ce74843325dc0909cdb12ab613500a5796f872084371c380fcf"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.233"

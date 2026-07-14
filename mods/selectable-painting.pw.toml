@@ -1,0 +1,13 @@
+name = "Selectable Painting"
+filename = "SelectablePainting-1.21.1-4.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NBJXn70b/versions/R6EBIKGo/SelectablePainting-1.21.1-4.0.1.jar"
+hash-format = "sha512"
+hash = "4bd72e502b5bf61f05c480b51c6b31d39252cc2ecc5416e8c023b7a1a3aa2169e8431313432eed7571c72f8d9e1f39e5a27625807bd0d4bd238b414d0366e59e"
+
+[update]
+[update.modrinth]
+mod-id = "NBJXn70b"
+version = "R6EBIKGo"

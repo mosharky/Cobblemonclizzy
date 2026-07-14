@@ -1,0 +1,13 @@
+name = "Pastel Storage"
+filename = "pastelstorage-0.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/vsdqEWmM/versions/BDVLZ6Vq/pastelstorage-0.2.0.jar"
+hash-format = "sha512"
+hash = "c02890a61264188f5de975cc76a0866426e587778a748bf4ec955e68e1d04f646465d18e6b2dc438ee68eda16b6ae416685fa826d2c20afa08d7bc9430cae526"
+
+[update]
+[update.modrinth]
+mod-id = "vsdqEWmM"
+version = "BDVLZ6Vq"
