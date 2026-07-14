@@ -3,6 +3,7 @@
 Platform.setModName('kubejs', 'Momo')
 Platform.setModName('incision', 'Incision')
 Platform.setModName('cobbledex-rei-emi-jei', 'Cobbledex')
+Platform.setModName('mega_showdown', 'Cobblemon: Mega Showdown')
 
 function postInit() {
     // console.log($WoodTypeRegistry.getTypes())

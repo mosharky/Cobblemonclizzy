@@ -53,6 +53,7 @@ function constructWoodTypes() {
             let anotherFurnitureCompatId        = `everycomp:af/${mod}/`
             let backpackedCompatId              = `everycomp:bp/${mod}/`
             let decorativeBlocksCompatId        = `everycomp:db/${mod}/`
+            let noMansLandCompatId              = `everycomp:nml/${mod}/`
 
             switch (mod) {
                 case 'minecraft': {
@@ -91,6 +92,7 @@ function constructWoodTypes() {
                 case 'darkerdepths': {
                     quarkCompatId = mod + ':'
                     verticalSlabCompatId = mod + ':'
+                    noMansLandCompatId = mod + ':'
                     break
                 }
                 case 'mynethersdelight': {
@@ -105,6 +107,10 @@ function constructWoodTypes() {
                 case 'natures_spirit': {
                     farmersDelightCompatId = 'natures_delight:'
                     break
+                }
+                case 'nomansland': {
+                    noMansLandCompatId = mod + ':'
+                    farmersDelightCompatId = mod + ':'
                 }
             }
 
@@ -178,6 +184,9 @@ function constructWoodTypes() {
                     // seat:                   decorativeBlocksCompatId + woodType + '_seat',
                     // palisade:               decorativeBlocksCompatId + woodType + '_palisade',
                 // }
+                nomansland: {
+                    trimmed_planks:         noMansLandCompatId + 'trimmed_' + woodType + '_planks',
+                }
             }
 
             // Lazy final try for stem/hyphae differentiation in case i missed something
@@ -215,6 +224,7 @@ function constructWoodTypes() {
                 }
                 case 'petrified': {
                     // woodTypeObj.quark.hollow_log        = 'everycomp:q/darkerdepths/hollow_petrified_log'
+                    woodTypeObj.woodworks.bookshelf     = 'darkerdepths:petrified_bookshelf'
                     break
                 }
                 case 'runewood': case 'soulwood': {
@@ -236,8 +246,11 @@ function constructWoodTypes() {
                 case 'goety': {
                     woodTypeObj.woodworks.chest         = mod + ':' + woodType + '_chest'
                     woodTypeObj.woodworks.trapped_chest = mod + ':trapped_' + woodType + '_chest'
-                    woodTypeObj.woodworks.bookshelf = mod + ':' + woodType + '_bookshelf'
+                    woodTypeObj.woodworks.bookshelf     = mod + ':' + woodType + '_bookshelf'
                     break
+                }
+                case 'nomansland': {
+                    woodTypeObj.woodworks.bookshelf     = mod + ':' + woodType + '_bookshelf'
                 }
             }
 

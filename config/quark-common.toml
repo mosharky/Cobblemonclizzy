@@ -52,8 +52,8 @@
 	"Feeding Trough" = true
 	Gravisand = true
 	"Iron Rod" = false
-	"Metal Buttons" = false
-	"Obsidian Plate" = false
+	"Metal Buttons" = true
+	"Obsidian Plate" = true
 	"Pistons Move Tile Entities" = false
 	"Redstone Randomizer" = true
 
@@ -96,7 +96,7 @@
 [building]
 	"Celebratory Lamps" = false
 	"Compressed Blocks" = true
-	"Duskbound Blocks" = false
+	"Duskbound Blocks" = true
 	"Framed Glass" = true
 	"Glass Item Frame" = true
 	"Gold Bars" = false
@@ -107,16 +107,16 @@
 	"Japanese Palette" = true
 	"Leaf Carpet" = false
 	Midori = true
-	"More Brick Types" = false
-	"More Mud Blocks" = false
+	"More Brick Types" = true
+	"More Mud Blocks" = true
 	"More Potted Plants" = false
 	"Nether Brick Fence Gate" = false
-	"Rainbow Lamps" = false
+	"Rainbow Lamps" = true
 	"Raw Metal Bricks" = true
 	Rope = true
 	"Shear Vines" = false
 	Shingles = true
-	"Soul Sandstone" = false
+	"Soul Sandstone" = true
 	Stools = false
 	"Sturdy Stone" = true
 	Thatch = false
@@ -191,15 +191,15 @@
 
 	[building.more_brick_types]
 		#This also comes with a utility recipe for Red Nether Bricks
-		"Enable Blue Nether Bricks" = true
+		"Enable Blue Nether Bricks" = false
 		#This also includes Red Sandstone Bricks and Soul Sandstone Bricks
-		"Enable Sandstone Bricks" = true
+		"Enable Sandstone Bricks" = false
 		#This also includes Mossy Cobblestone Bricks
-		"Enable Cobblestone Bricks" = true
+		"Enable Cobblestone Bricks" = false
 		#Requires Cobblestone Bricks to be enabled
 		"Enable Blackstone Bricks" = true
 		#Requires Cobblestone Bricks to be enabled
-		"Enable Dirt Bricks" = true
+		"Enable Dirt Bricks" = false
 		#Requires Cobblestone Bricks to be enabled
 		"Enable Netherrack Bricks" = true
 
@@ -511,7 +511,7 @@
 	"Dyeable Item Frames" = true
 	Emotes = true
 	"Enhanced Ladders" = true
-	"Glass Shard" = false
+	"Glass Shard" = true
 	"Gold Tools Have Fortune" = false
 	"Grab Chickens" = true
 	"Hoe Harvesting" = false
@@ -768,17 +768,17 @@
 	#(Trumpet Trees)
 	"Blossom Trees" = false
 	"Cherry Grove Water Petals" = true
-	"Chorus Vegetation" = false
+	"Chorus Vegetation" = true
 	Corundum = true
 	"Fairy Rings" = false
 	"Fallen Logs" = false
 	"Glimmering Weald" = false
-	"Monster Box" = false
+	"Monster Box" = true
 	"Nether Obsidian Spikes" = false
-	"New Stone Types" = false
+	"New Stone Types" = true
 	"No More Lava Pockets" = true
 	Permafrost = true
-	"Spiral Spires" = false
+	"Spiral Spires" = true
 
 	#(Ashen Trees)
 	[world.ancient_wood]
@@ -1184,11 +1184,11 @@
 			Dimensions = ["minecraft:the_nether"]
 
 	[world.new_stone_types]
-		"Enable Limestone" = true
-		"Enable Jasper" = true
+		"Enable Limestone" = false
+		"Enable Jasper" = false
 		"Enable Shale" = true
 		"Enable Myalite" = true
-		"Add New Stones To Mason Trades" = true
+		"Add New Stones To Mason Trades" = false
 
 			[world.new_stone_types.limestone.dimensions]
 				"Is Blacklist" = false
@@ -1878,7 +1878,7 @@
 
 [oddities]
 	Backpack = false
-	Crate = false
+	Crate = true
 	Magnets = false
 	"Matrix Enchanting" = true
 	Pipes = false

@@ -145,27 +145,44 @@ const woodTypesToConstruct = {
         cherry: true,
         crimson: true,
         warped: true,
-        pale_oak: false,  // vanilla backport's mod id changed
+        // pale_oak: false,  // vanilla backport's mod id changed
+    },
+    dungeonsdelight: {
+        wormwood: true
+    },
+    caverns_and_chasms: {
+        azalea: true,
+    },
+    darkerdepths: {
+        petrified: true,
     },
     quark: {
         azalea: false,
         ancient: false,
         blossom: false,
     },
-    /*
-    upgrade_aquatic: {
-        driftwood: true,
-        river: true,
+    cobblemon: {
+        apricorn: true,
+        saccharine: true,
     },
-    */
-    atmospheric: {
-        grimwood: true,
-        rosewood: true,
-        morado: true,
-        yucca: true,
-        aspen: false,
-        laurel: true,
-        kousa: true,
+    pastel: {
+        black: true,
+        blue: true,
+        brown: true,
+        cyan: true,
+        gray: true,
+        green: true,
+        light_blue: true,
+        light_gray: true,
+        lime: true,
+        magenta: true,
+        orange: true,
+        pink: true,
+        purple: true,
+        red: true,
+        white: true,
+        yellow: true,
+        weeping_gala: true,
     },
     environmental: {
         willow: false,
@@ -173,106 +190,41 @@ const woodTypesToConstruct = {
         plum: true,
         wisteria: true,
     },
-    /*
-    endergetic: {
-        poise: true,
+    enderscape: {
+        veiled: true,
+        celestial: true,
+        murublight: true,
     },
-    */
-    /*
-    autumnity: {
-        maple: false,
-    },
-    */
-    caverns_and_chasms: {
-        azalea: true,
-    },
-    /*
-    natures_spirit: {
-        redwood: true,
-        sugi: true,
-        wisteria: true,
-        fir: true,
-        willow: true,
+    atmospheric: {
+        rosewood: true,
+        morado: true,
+        yucca: true,
         aspen: true,
-        maple: false,
-        cypress: true,
-        olive: true,
-        joshua: true,
-        ghaf: true,
-        palo_verde: true,
-        coconut: true,
-        cedar: true,
-        larch: true,
-        mahogany: true,
-        saxaul: true,
+        laurel: true,
+        kousa: true,
+        grimwood: true,
     },
-    */
-   /*
-    windswept: {
-        holly: true,
-        chestnut: true,
-        pine: true
+    nomansland: {
+        pine: true,
+        maple: true,
+        walnut: true,
+        willow: true,
     },
-    */
-    darkerdepths: {
-        petrified: true,
-    },
-    /*
-    mynethersdelight: {
-        powdery: true,
-    },
-    */
-    /*
-    gardens_of_the_dead: {
-        whistlecane: true,
-        soulblight: true,
-    },
-    */
-    /*
-    collectorsreap: {
-        lucuma: true,
-    },
-    */
-    /*
-    netherexp: {
-        claret: true,
-        smokestalk: true,
-    },
-    */
-    /*
-    goety: {
-        haunted: true,
+    spawn: {
         rotten: true,
-        windswept: true,
-        pine: false,
-        chorus: true,
-        corrupt_chorus: true,
+        date: true,
     },
-    */
-    /*
-    cataclysm: {
-        chorus: false,
-    },
-    */
-    /*
-    alexscaves: {
-        pewen: true,
-        thornwood: true,
-    },
-    */
     malum: {
         runewood: true,
         soulwood: true,
     },
-    /*
-    unusual_prehistory: {
-        ginkgo: true,
-        lepidodendron: true,
+    infernalexp: {
+        luminous: true,
     },
-    */
-    /*
-    unusualend: {
-        chorus_nest: true,
-    },
-    */
+    netherdescent: {
+        wailing: true,
+        embur: true,
+        arisian: true,
+        sythian: true,
+    }
 }

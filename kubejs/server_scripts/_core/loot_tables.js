@@ -1,7 +1,11 @@
 /** @param {$LootModifier$Builder} all */
 function lootReplacements_Core(all) {
     global.COMMON_SWAPPER.forEach((value, key) => {
-        all.replaceLoot(key, value, true)
+        if (value == 'minecraft:air') {
+            all.removeLoot(key)
+        } else {
+            all.replaceLoot(key, value, true)
+        }
     })
 
     global.REMOVALS.set.forEach(removal => {

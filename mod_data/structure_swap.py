@@ -279,7 +279,7 @@ def handleBlocks(structureId: str, blocks: List[Compound]):
                                 item['id'] = itemSwapWith
                             elif item['id'] in swaps['removals']:
                                 log.warning(
-                                    f' Contains unswapped item: "{item['id']}" in "{blockId}" NBT')
+                                    f' Contains unswapped ITEM: "{item['id']}" in "{blockId}" NBT')
 
                 # REMOVALS HANDLING
                 elif blockId in swaps['removals']:
@@ -345,7 +345,7 @@ def handleEntities(structureId: str, entities: List[Compound]):
                             item['id'] = itemSwapWith
                         elif item['id'] in swaps['removals']:
                             log.warning(
-                                f' Contains unswapped item: {item['id']} in {entityId} NBT')
+                                f' Contains unswapped ITEM: "{item['id']}" in "{entityId}" NBT')
 
                 # ITEM FRAME HANDLING
                 elif entityId == 'minecraft:item_frame' or entityId == 'minecraft:glow_item_frame' or entityId == 'quark:dyed_item_frame' or entityId == 'quark:glass_frame':
@@ -356,7 +356,7 @@ def handleEntities(structureId: str, entities: List[Compound]):
                             item['id'] = itemSwapWith
                         elif item['id'] in swaps['removals']:
                             log.warning(
-                                f' Contains unswapped item: {item['id']} in {entityId} NBT')
+                                f' Contains unswapped ITEM: "{item['id']}" in "{entityId}" NBT')
 
         except Exception as e:
             log.error(

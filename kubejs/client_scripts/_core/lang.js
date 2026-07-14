@@ -48,24 +48,19 @@ ClientEvents.lang('en_us', e => {
     // rename('bountifulfares:plum_sapling', 'Fruitful Plum Sapling')
 
     // No Man's Land
-    rename('nomansland:pine_bookshelf', 'Pine Bookshelf')
-    rename('nomansland:pine_button', 'Pine Button')
-    rename('nomansland:pine_cabinet', 'Pine Cabinet')
-    rename('nomansland:pine_door', 'Pine Door')
-    rename('nomansland:pine_fence', 'Pine Fence')
-    rename('nomansland:pine_fence_gate', 'Pine Fence Gate')
-    rename('nomansland:pine_hanging_sign', 'Pine Hanging Sign')
-    rename('nomansland:pine_leaves', 'Pine Leaves')
-    rename('nomansland:pine_log', 'Pine Log')
-    rename('nomansland:pine_palisade', 'Pine Palisade')
-    rename('nomansland:pine_planks', 'Pine Planks')
-    rename('nomansland:pine_pressure_plate', 'Pine Pressure Plate')
-    rename('nomansland:pine_sapling', 'Pine Sapling')
-    rename('nomansland:pine_seat', 'Pine Seat')
-    rename('nomansland:pine_sign', 'Pine Sign')
-    rename('nomansland:pine_slab', 'Pine Slab')
-    rename('nomansland:pine_stairs', 'Pine Stairs')
-    rename('nomansland:pine_trapdoor', 'Pine Trapdoor')
-    rename('nomansland:pine_wood', 'Pine Wood')
-    // rename('nomansland:oat_grass', 'Lush Oat Grass')
+    for (const blockSet of Object.values(global.WOOD_TYPES.nomansland.pine)) {
+        for (const block of Object.values(blockSet)) {
+            let name = Item.of(block).displayName.string.replace('[', '').replace(']', '')
+            if (block != undefined) rename(block, name.replace('Pine', 'Larch'))
+        }
+    }
+
+
+    rename('nomansland:stripped_pine_palisade', 'Stripped Larch Palisade')
+    rename('nomansland:pine_palisade', 'Larch Palisade')
+    rename('nomansland:stripped_spiked_pine_palisade', 'Stripped Larch Palisade')
+    rename('nomansland:spiked_pine_palisade', 'Larch Palisade')
+    rename('nomansland:pine_seat', 'Larch Seat')
+
+    rename('nomansland:pancake', 'Maple-Glazed Pancake')
 })

@@ -1,6 +1,6 @@
 {
-  "hardInclude": "anything",
-  "includeList": [],
+  "hardInclude": "nothing",
+  "includeList": ["cobblemon:pokemon"],
   "includeListInSuperCategory": true,
   "excludeMode": "ONLY",
   "excludeList": [

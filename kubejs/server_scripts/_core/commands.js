@@ -36,11 +36,5 @@ ServerEvents.commandRegistry(event => {
 
             return 1
         }))
-
-        .then(Commands.literal('debug_mode').executes(ctx => {
-            global.DEBUG_MODE = !global.DEBUG_MODE
-            ctx.source.getPlayer().tell(Text.gold(`Debug mode: ${global.DEBUG_MODE}`))
-            return 1
-        }))
     )
 })

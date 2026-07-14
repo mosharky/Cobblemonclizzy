@@ -26,13 +26,14 @@ function removals_NoMansLand() {
         'nomansland:mossy_cobblestone_brick_stairs',
         'nomansland:mossy_cobblestone_brick_wall',
         'nomansland:deer_spawn_egg',
+        'nomansland:deer_spawn_egg',
     ])
 
     // global.ITEM_SWAPPER.set('nomansland:walnuts', 'bountifulfares:walnut')
 
-    global.BLOCK_SWAPPER.set('nomansland:extinguished_sconce_torch', 'supplementaries:sconce')  // if only i could do state swapping..
-    global.BLOCK_SWAPPER.set('nomansland:sconce_torch', 'supplementaries:sconce')
-    global.BLOCK_SWAPPER.set('nomansland:sconce_soul_torch', 'supplementaries:sconce_soul')
+    // global.BLOCK_SWAPPER.set('nomansland:extinguished_sconce_torch', 'supplementaries:sconce')  // if only i could do state swapping..
+    // global.BLOCK_SWAPPER.set('nomansland:sconce_torch', 'supplementaries:sconce')
+    // global.BLOCK_SWAPPER.set('nomansland:sconce_soul_torch', 'supplementaries:sconce_soul')
     // Cobblestone bricks
     global.BLOCK_SWAPPER.set('nomansland:cobblestone_bricks', 'caverns_and_chasms:cobblestone_bricks')
     global.BLOCK_SWAPPER.set('nomansland:cobblestone_brick_slab', 'caverns_and_chasms:cobblestone_brick_slab')
@@ -45,6 +46,8 @@ function removals_NoMansLand() {
     global.BLOCK_SWAPPER.set('nomansland:mossy_cobblestone_brick_wall', 'caverns_and_chasms:mossy_cobblestone_brick_wall')
     // Bookshelves
     for (const [woodType, woodTypeObj] of Object.entries(global.WOOD_TYPES.minecraft)) {
-        global.BLOCK_SWAPPER.set('nomansland:' + woodType + '_bookshelf', woodTypeObj.woodworks.bookshelf)
+        if (woodType != 'oak') {
+            global.BLOCK_SWAPPER.set('nomansland:' + woodType + '_bookshelf', woodTypeObj.woodworks.bookshelf)
+        }
     }
 }
