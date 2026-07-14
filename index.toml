@@ -2227,12 +2227,12 @@ metafile = true
 
 [[files]]
 file = "mods/colorwheel-patcher.pw.toml"
-hash = "caab0399294fca902849b8eb653f56840bc107d5dbd0b0cbaab3d60ca4cc01f9"
+hash = "6f6656fb8ddefd2ce94b575a668b65681878d31e6a23929a3054f223f3aa573b"
 metafile = true
 
 [[files]]
 file = "mods/colorwheel.pw.toml"
-hash = "3f99808dda6b83374cea1d478e2688c69af71a7381b176d0a7df50d219e44ca9"
+hash = "c6f27bc25d268599e4ebdf64ee46d673c4b3effe284eb6a9d6d0fc27311cf103"
 metafile = true
 
 [[files]]
@@ -2352,7 +2352,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "d5b9c23df79ef871a70032567db2512904251347bdf13da80fbb8b00a846a79a"
+hash = "f33a4d61bea34df1417d51e25f93ab4ae4f9e737fe7a490f70d1d4db2081c4ef"
 metafile = true
 
 [[files]]
@@ -2597,7 +2597,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "db1c1e6382878b78e994dba1b9026935f8d1c5ca685c89d2437858e0a0dcab58"
+hash = "7cefd2ee767865b381e1acc7d03b50e372e9b15ea3945b8bc3ead17a4fa39b17"
 metafile = true
 
 [[files]]

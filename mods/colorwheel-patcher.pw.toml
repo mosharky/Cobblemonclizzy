@@ -1,4 +1,4 @@
-name = "Colorwheel Patcher"
+name = "SHADERS - Colorwheel Patcher"
 filename = "colorwheel_patcher-neoforge-1.0.5+mc1.21.1.jar"
 side = "client"
 
@@ -11,3 +11,8 @@ hash = "902bca40ac980f4aab2564d64cf47a698b18f44234f9757c9125f755f9890d3350ca4e28
 [update.modrinth]
 mod-id = "KPsw5jDu"
 version = "dQqV3sci"
+
+[option]
+optional = true
+default = false
+description = "ENABLE FOR SHADERS. Leave disabled for performance and less visual bugs."

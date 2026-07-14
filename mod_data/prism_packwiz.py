@@ -36,6 +36,7 @@ def command_for(metadata: dict) -> list[str] | None:
             str(project_id),
             "--file-id",
             str(file_id),
+            "--yes"
         ]
 
     modrinth = update.get("modrinth")
@@ -52,6 +53,7 @@ def command_for(metadata: dict) -> list[str] | None:
             str(mod_id),
             "--version-id",
             str(version),
+            "--yes"
         ]
 
     return None

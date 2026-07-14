@@ -1,4 +1,4 @@
-name = "Colorwheel"
+name = "SHADERS - Colorwheel"
 filename = "colorwheel-neoforge-1.2.9+mc1.21.1.jar"
 side = "client"
 
@@ -11,3 +11,8 @@ hash = "d2473439fdb26ff6a217808beea389f81e4cb387a9d7fde084660c432e70b8689d960c8e
 [update.modrinth]
 mod-id = "BzHgFoGz"
 version = "Uhs2KYar"
+
+[option]
+optional = true
+default = false
+description = "ENABLE FOR SHADERS. Leave disabled for performance and less visual bugs."

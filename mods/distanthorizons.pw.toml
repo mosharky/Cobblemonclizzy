@@ -11,3 +11,8 @@ hash = "d4199f92f992fbd2c75a3b0e4e81c8a98bee889013f7347f2149ffa62c86748bde22135e
 [update.modrinth]
 mod-id = "uCdwusMi"
 version = "ZpKb4kZp"
+
+[option]
+optional = true
+default = true
+description = "Allows for a way higher render distance (even on servers). Disable for performance."
