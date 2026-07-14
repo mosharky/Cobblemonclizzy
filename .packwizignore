@@ -153,6 +153,6 @@ minecraftinstance.json
 /mod_data/
 /kubejs/wip_data/
 /kubejs/config/probe-settings.json
-/kubejs/startup_scripts/src/_core/dev.js
+/kubejs/startup_scripts/_core/dev.js
 /globalresources/excavated_variants/
 /CODEX.md

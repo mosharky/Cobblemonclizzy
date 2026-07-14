@@ -1841,10 +1841,6 @@ file = "kubejs/startup_scripts/_core/_startup_main.js"
 hash = "1f3da4ae62429c4094835ff1d4e53ed2dd7de1a71808d6d6970de93c0e178baf"
 
 [[files]]
-file = "kubejs/startup_scripts/_core/dev.js"
-hash = "7b3764622e3d391ac62c3cb950fc28e5f9812ba94d74190ddc0fce0bbed91459"
-
-[[files]]
 file = "kubejs/startup_scripts/_core/portals.js"
 hash = "19ce0cc2e7ad800258b25761bc7d5b382a3c0ef2a998c99a3ebf86945f206947"
 
