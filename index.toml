@@ -1450,7 +1450,7 @@ hash = "863448a69f38f1fc357dd824148d2c183a18f804e8011d79e7be57bcf840d8a7"
 
 [[files]]
 file = "kubejs/client_scripts/_core/lang.js"
-hash = "15ab18ebfbe3c881b6cc3c145d154f5e950af719cb1f51a1e7752e5266e39e9b"
+hash = "e83387a11336eb101161afc295b3ed5ca28cb9477adcecc958f2caae4cfab306"
 
 [[files]]
 file = "kubejs/client_scripts/_core/vars.js"

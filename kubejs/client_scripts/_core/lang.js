@@ -47,6 +47,7 @@ ClientEvents.lang('en_us', e => {
     // rename('bountifulfares:plum_leaves', 'Fruitful Plum Leaves')
     // rename('bountifulfares:plum_sapling', 'Fruitful Plum Sapling')
 
+    /*
     // No Man's Land
     for (const blockSet of Object.values(global.WOOD_TYPES.nomansland.pine)) {
         for (const block of Object.values(blockSet)) {
@@ -54,6 +55,7 @@ ClientEvents.lang('en_us', e => {
             if (block != undefined) rename(block, name.replace('Pine', 'Larch'))
         }
     }
+    */
 
 
     rename('nomansland:stripped_pine_palisade', 'Stripped Larch Palisade')
